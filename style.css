@@ -1,0 +1,264 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(248, 171, 141, 0.281);
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.logo a {
+    color: blue;
+    text-decoration: none;
+    font-size: 34px;
+    width: 20%;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    width: 80%;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li :hover {
+
+}
+.boton{
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 10px;
+    margin-top: 3px;
+    height: 35px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.perfil {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 4px solid white;
+    margin-left: 50px;
+    margin-top: -75px;
+}
+.container2 {
+    display: flexbox;
+    border: 0;
+    margin-left: 50px;
+    justify-self: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 65vh;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: beige;
+    
+}
+.portada {
+    background-color: #f1b68f;
+    width: 100%;
+    height: 20vh;
+    border-radius: 20px 20px 20px 20px;
+}
+h1 {
+    padding: 20px;
+    margin-left: 10px;
+}
+.locacion {
+    
+    margin-left:30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.ocupacion {
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: grey;    
+}
+.descripcion {
+    width: 60%;
+    margin-left: 30px;
+    margin-bottom:20px;
+    color: grey;
+    font-size: 16px;
+}
+button {
+    width: 100px;
+    height: 25px;
+    margin-left: 30px;
+}
+.detalles {
+    display: flexbox;
+    width: 1000px;
+    height: 20vh;
+
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    background-color: beige;
+
+}
+.parrafo1 {
+    margin-left: 10px;
+}
+.parrafo2 {
+    margin-left: 10px;
+}
+.parrafo3 {
+    margin-left: 10px;
+}
+.solicitudes {
+    margin-left: 1200px;
+    margin-top: -845px;
+    height: 300px;
+    width: 600px;
+    background-color: #f1b68f;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.s1 {
+    
+}
+.conexiones {
+    margin-left: 1200px;
+    margin-top: 30px;
+    height: 520px;
+    width: 600px;
+    background-color: #f1b68f;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.columna {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+
+}
+img{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-left: 20px;
+    padding: 15px;
+}
+.Kai{
+    margin-left: 130px;
+    margin-top: -70px;
+    font-size: 30px;
+} 
+.amira{
+    margin-left: 130px;
+    margin-top: -70px;
+    font-size: 30px;
+}
+.tic1{
+    float: right;
+    margin-top: -80px;
+    margin-right: 90px;
+}
+.tic2{
+    float: right;
+    margin-top: -70px;
+    margin-right: 90px;
+}
+.sapo{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.perfiles{
+    
+}
+.img1{
+    width: 50px;
+    height: 50px;
+}
+.img2{
+    width: 50px;
+    height: 50px;
+}
+.img3{
+    width: 50px;
+    height: 50px;
+}
+.img4{
+    width: 50px;
+    height: 50px;
+}
+.img5{
+    width: 50px;
+    height: 50px;
+}
+.img6{
+    width: 50px;
+    height: 50px;
+}
+.img1, .img2, .img3, .img4,.img5,.img6 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    
+
+.nombre1{
+    margin-top: -390px;
+    margin-left: 100px;
+}
+.nombre2{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.nombre3{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.nombre4{
+    margin-left: 100px;
+    margin-top: 55px;
+}
+.nombre5{
+    margin-left: 100px;
+    margin-top: 55px;
+}
+.nombre6{
+    margin-left: 100px;
+    margin-top: 55px;
+}
